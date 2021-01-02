@@ -1,0 +1,130 @@
+@font-face {
+  font-family: Satyr;
+  src: url(Satyr.ttf);
+}
+
+@font-face {
+  font-family: NHaasGroteskTXPro-65Md;
+  src: url(NHaasGroteskTXPro-65Md.otf);
+}
+
+body {
+  background-color: white;
+  margin-top: 50px;
+  background-image: linear-gradient(#ffffff, #1c1c1c);
+}
+
+/*YOUR TEXT*/
+
+.title {
+    font-family: Satyr;
+    margin-top:0;
+    margin: 10;
+    font-size: 250px;
+    text-transform: uppercase;
+    margin: left;
+}
+
+.subtitle {
+  font-family: Satyr;
+  margin-top:0;
+  font-size: 100px;
+  text-transform: uppercase;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+.text {
+  font-family: NHaasGroteskTXPro-65Md;
+  font-size: 30px;
+  text-align: left;
+  hyphens: auto;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+/*NAVIGATION BAR ON TOP*/
+
+#navbar {
+  font-family: Satyr;
+  text-transform: uppercase;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.7s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*RESPONSIVE SECTION */
+
+@media screen and (max-width: 1200px) {
+  .text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .text {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .title  {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title  {
+    font-size:80px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .subtitle {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .subtitle  {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .subtitle  {
+    font-size:50px;
+  }
+}
