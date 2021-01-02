@@ -80,17 +80,12 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: white;
+  background: linear-gradient(#ffffff, #1c1c1c);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: black;
+  background: linear-gradient(#ffffff, #1c1c1c);
 }
 
 /*RESPONSIVE SECTION */
