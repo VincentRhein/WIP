@@ -110,19 +110,19 @@ body {
 
 @media screen and (max-width: 1200px) {
   .title {
-    font-size: 100px;
+    font-size: 200px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .title  {
-    font-size: 100px;
+    font-size: 200px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .title  {
-    font-size:200px;
+    font-size:80px;
   }
 }
 
