@@ -45,6 +45,10 @@ body {
   padding: 10px;
 }
 
+p:first-line{
+    text-indent:40px;
+}
+
 /*NAVIGATION BAR ON TOP*/
 
 #navbar {
