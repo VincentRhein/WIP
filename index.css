@@ -7,6 +7,10 @@
   font-family: NHaasGroteskTXPro-65Md;
   src: url(NHaasGroteskTXPro-65Md.otf);
 }
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
 
 body {
   background-color: white;
