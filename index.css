@@ -12,6 +12,8 @@ body {
   background-color: white;
   margin-top: 50px;
   background-image: linear-gradient(#ffffff, #1c1c1c);
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 /*YOUR TEXT*/
