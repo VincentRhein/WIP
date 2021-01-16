@@ -14,13 +14,23 @@ html {
 
 body {
   background-color: white;
-  margin-top: 50px;
-  background-image: linear-gradient(#ffffff, #1c1c1c);
-  width: 100vw;
+  /*margin-top: 50px;*/
+  /*background-image: linear-gradient(#ffffff, #1c1c1c);*/
+  width: 100%;
   overflow-x: hidden;
 }
 
 /*YOUR TEXT*/
+
+/* line */
+#vl {
+  border-left: 3px solid black;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  bottom: 0;
+}
 
 .title {
     font-family: Satyr;
@@ -28,7 +38,7 @@ body {
     margin: 10;
     font-size: 250px;
     text-transform: uppercase;
-
+    text-align: center;
 }
 
 .subtitle {
@@ -55,33 +65,49 @@ p:first-line{
     text-indent:40px;
 }
 
-/*NAVIGATION BAR ON TOP*/
-
-#navbar {
-  font-family: Satyr;
-  text-transform: uppercase;
-  background-color: #333;
+/* NAVIGATION */
+.sidenav {
+  height: 100%;
+  width: 0;
   position: fixed;
+  z-index: 1;
   top: 0;
-  width: 100%;
-  display: block;
-  transition: top 0.7s;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  text-align:center;
 }
 
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 12px;
+.sidenav a {
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 65px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  margin-top: 10px;
+  padding-top: 20px;
 }
 
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
+.sidenav a:hover{
+  color: #f1f1f1;
 }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 60px;
+  margin-left: 50px;
+  font-family: Satyr;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -112,15 +138,10 @@ p:first-line{
   }
 }
 
-@media screen and (max-width: 600px) {
-  .text {
-    font-size: 50px;
-  }
-}
 
 @media screen and (max-width: 1200px) {
   .title {
-    font-size: 200px;
+    font-size: 140px; text-align: center;
   }
 }
 
@@ -130,26 +151,15 @@ p:first-line{
   }
 }
 
-@media screen and (max-width: 600px) {
-  .title  {
-    font-size:80px;
-  }
-}
 
 @media screen and (max-width: 1200px) {
   .subtitle {
-    font-size: 100px;
+    font-size: 70px; text-align: center;
   }
 }
 
 @media screen and (max-width: 900px) {
   .subtitle  {
     font-size: 50px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .subtitle  {
-    font-size:50px;
   }
 }
