@@ -18,12 +18,16 @@ body {
   /*background-image: linear-gradient(#ffffff, #1c1c1c);*/
   width: 100%;
   overflow-x: hidden;
+  position: relative;
+margin-bottom: 0;
+height: 100%
 }
 
 /*YOUR TEXT*/
 
 /* line */
 #vl {
+  height: 100%;
   border-left: 3px solid black;
   position: absolute;
   left: 50%;
@@ -66,6 +70,7 @@ p:first-line{
 }
 
 /* NAVIGATION */
+
 .sidenav {
   height: 100%;
   width: 0;
