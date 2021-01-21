@@ -46,7 +46,7 @@ a:hover {
 /* line */
 #vl {
   height: 100%;
-  border-left: 3px solid black;
+  border-left: 3px solid #141414;
   position: absolute;
   left: 50%;
   margin-left: -3px;
@@ -195,9 +195,10 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin: auto;
-  width: 17em;
   height: 17em;
   font-family: Satyr;
+  margin-top: 40%;
+  margin-bottom: 500px;
 }
 .preloader, .preloader__ring {
   transform-style: preserve-3d;
