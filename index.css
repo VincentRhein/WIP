@@ -7,6 +7,12 @@
   font-family: NHaasGroteskTXPro-65Md;
   src: url(NHaasGroteskTXPro-65Md.otf);
 }
+
+@font-face {
+  font-family: NHaasGroteskTXPro-55Rg;
+  src: url(NHaasGroteskTXPro-55Rg.otf);
+}
+
 html {
     width: 100%;
     overflow-x: hidden;
@@ -39,6 +45,17 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+p.sub{
+  font-family: NHaasGroteskTXPro-55Rg;
+  font-size: 15px;
+  text-align: left;
+  hyphens: auto;
+  margin: auto;
+  padding-bottom: 20px;
+
+
 }
 
 /*YOUR TEXT*/
@@ -144,12 +161,10 @@ a:hover {
 
 }
 
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
 
 /* width */
 ::-webkit-scrollbar {
